@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/sea.avif);
+}
+.container{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login{
+    width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0,0, 0, 1);
+}
+.content{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: transparent;
+
+}
+.content img{
+    width: 100%;
+    border-radius: 99PX 0PX;
+    box-shadow:  15px 5px 30px rgba(0,0, 0, 1);
+}
+.loginform{
+    flex-basis: 50%;
+    background: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+}
+.loginform h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tbox input{
+    border-radius: 3px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #55efc4;
+    width: 100%;
+    height: 35px;
+    margin: 30px 0;
+
+}
+.tbox input{
+    background: transparent;
+    width: 90%;
+    outline: none;
+    border: 0;
+    padding-left: 5px;
+
+}
+::placeholder{
+    color: #777;
+}
+.tbox i{color: #55efc4;
+    font-size: 15px;
+      padding: 7px;
+}
+.btn{
+    width: 100%;
+    border:0;
+    border-radius: 5px;
+    background: #00b894;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+
+    
+}

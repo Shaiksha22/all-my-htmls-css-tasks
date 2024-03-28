@@ -1,0 +1,38 @@
+ body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+}
+header,nav,footer,section{
+    padding: 20px;
+
+}
+header{
+    background-color: aqua;
+    color: white;
+   
+}
+nav{
+    display: flex;
+}
+nav:hover{
+    text-decoration: underline;
+     color: brown;
+}
+section{
+    display: inline;
+}
+article{
+    float: left ;
+    width: 50%;
+}
+.article2{
+    float: right;
+    width: 50%;
+    
+}
+footer{
+    background-color: black;
+    color: aqua;
+    clear: both;
+}

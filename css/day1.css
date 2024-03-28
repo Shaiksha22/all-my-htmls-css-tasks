@@ -1,0 +1,56 @@
+/* *{
+    background-color:black;
+    color: aliceblue;
+
+}
+.header>h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#main-section i h2 {
+    color: red;
+    background-color: white;
+
+}
+p{
+    text-align: center;
+    color: aqua;
+}
+ div ~ p {
+       color: blue;
+}
+ div ul li {
+    background-color: green;
+}
+h3{
+    color: beige;
+} */
+*{
+    background-color: black;
+    color: white;
+}
+header>h1{
+    text-align: center;
+    background-color: blue;
+}
+a[href="#"]{
+    
+    color: pink;
+    text-align: center;
+   
+}
+section h2 {
+    text-align: center;
+    background-color: blueviolet;
+}
+#content{
+    text-align: center
+}
+li{
+    text-align: center;
+    color: brown;
+}
+footer p{
+    text-align: center;
+    background-color: green;
+}

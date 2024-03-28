@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+      .container{
+        min-height: 96vh;
+        display: grid;
+        grid-template-columns: 20% 40% 20% 20%;
+        grid-template-rows: 15% 15% 55% 15%;
+        row-gap: 10px;
+        
+        
+        
+    
+        
+        
+    }
+    
+    .header{
+        grid-row: 1/2;
+        grid-column: 1/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border-radius: 4px;
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    }
+    .nav{
+        grid-row: 2/3;
+        grid-column: 1/5;
+        display: flex;
+       
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+        
+       
+    }
+    .aside{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://th-i.thgim.com/public/incoming/39rw4/article67910463.ece/alternates/PORTRAIT_215/Eenthu%20trees%20%281%29.JPG");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        
+    }
+    .section{
+        grid-row: 3/4;
+        grid-column: 2/3;
+        background-image: url("../images/david.jpeg");
+        background-repeat: no-repeat ;
+        background-size: contain;
+       
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+        
+
+    }
+    .footer{
+        grid-row: 4/5;
+        grid-column: 1/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .article{
+        grid-column: 3/5;
+        grid-row: 3/4;
+        border-radius: 4px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+        
+    }
+    p::first-letter{
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+      span::first-letter  {
+        font-size: xx-large;
+    }
+     .container {
+        
+     }
+     .navitems{
+        
+       
+        
+        display: flex;
+        
+        
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-around;
+        flex-shrink: 1  ;
+        flex-direction: row;
+          }
+          .nnn{
+            text-decoration: none;
+            font-family: fantasy;
+            font-size: 50px;
+            
+          }
+  </style>
+</head>
+<body>
+    <div class="container ">
+        
+            <header class="header"><H1>THE HINDU</H1>
+           
+            
+            </header>
+        
+        
+            <nav class="nav">
+                <div class="navitems">
+                    <a class="nnn" href="https://www.thehindu.com/news/national/"> India</a>
+                     <a class="nnn" href="https://www.thehindu.com/news/international/">world</a>
+                     <a class="nnn" href="https://www.thehindu.com/sport/">sports</a>
+                </div>
+            </nav>
+        
+        
+            <aside class="aside" >
+             <a style="color: black; font-size: x-large; font-family: 'Times New Roman', Times, serif;" href="https://www.thehindu.com/news/national/kerala/rare-tree-fights-a-losing-battle-in-north-kerala/article67909889.ece"> Rare tree fights a losing battle in north Kerala</a> </aside>
+        
+            <section class="section"></section>
+        
+        
+            <article style="font-family: Georgia, 'Times New Roman', Times, serif; " class="article" ><p>
+               David Andrew Warner (born 27 October 1986) is an Australian T20I international cricketer and a former Test vice-captain. A left-handed opening batsman, Warner is the first Australian cricketer in 132 years to be selected for the national team in any format without experience in first-class cricket. He plays for New South Wales and Sydney Thunder in domestic cricket. Warner was a prominent member of the victorious Australian squad of the 2015 Cricket World Cup, the 2021 T20 World Cup, where he was the Player of the Tournament, the 2021–2023 ICC World Test Championship, and the 2023 ICC Cricket World Cup.[1]
+                In January 2017, he became the fourth player to win the Allan Border Medal more than once and to win the award in consecutive years. On 28 September 2017, he played in his 100th One Day International (ODI).
+
+                In March 2018, following a preliminary investigation into ball tampering by the Australian team in the third match of their Test series against South Africa, Warner was suspended and charged with bringing the game into disrepute.[2] Following a board meeting later in the month, Cricket Australia banned Warner from all international and domestic cricket in Australia for one year, and from any leadership positions permanently.[3]
+                
+                In January 2024, Warner played his final Test match for Australia and also announced his retirement from ODI cricket.</p>
+            </article>
+        
+        
+            <footer class="footer"></footer>
+        
+
+    </div>
+    
+</body>
+</html>

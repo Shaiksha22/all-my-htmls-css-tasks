@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    
+}
+.card-header{
+    display: flex;
+    height: 100px;
+    border: solid yellow;
+}
+
+#form{
+    margin-left: 500px;
+}
+.note{
+   
+  margin-left: 600px; 
+
+}
+#last{
+   
+    margin: 5px;
+}
+.aside{
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 700px;
+}
+li{
+    height: 50px;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.nav1{
+    display: flex;
+}
+.asidecontainer{
+    display: flex;
+}
+.bar{
+    display: flex;
+ 
+    height: 50px;
+    
+}
+.bar>li{
+    margin: 15px;
+    height: 25px;
+    border-radius: 4px;
+    background: #ebe4e4;
+     
+   
+}
+@media screen {
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            min-height: 100vh;
+        }
+        .container{
+            margin: auto;
+            
+            width: 550px;
+            max-width: 90%
+           
+
+            justify-content: space-around;
+        }
+        .video{
+            padding: 20px;
+            background: white;
+            margin-top: 0;
+            border-radius: 4px;
+             
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+             width: 100%;
+           max-height:  90%;
+           
+        }
+    </style>
+</head>
+<body><div class="container ">
+    <div class="video">
+        
+  <video controls  poster="../images/th.jpg"  height=" 500px"
+  width="500px" >
+    <source src="../videos/istockphoto-1469959123-640_adpp_is.mp4" >
+    <track src="../html/caption.vtt" label="english" srclang="en">
+</div>
+
+</div>
+  </video>
+</body>
+</html>

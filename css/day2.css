@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    background-image: url(https://wallpapercave.com/wp/wp7502865.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+#profile{
+    margin: auto;
+    margin-left: 80px;
+    
+}
+#profile img{
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 70px;
+    background-image: url(../../images/srh\ logo.jpeg);
+    color: transparent;
+    background-clip: text;
+}
+    
